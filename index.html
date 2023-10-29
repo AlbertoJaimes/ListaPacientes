@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lista de Pacientes</title>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+	</head>
+	<body>
+		<header class="bg-primary bg-gradient text-white text-center p-4">
+			<h1>Lista de Pacientes</h1>
+		</header>
+
+		<div class="container">
+			<div class="row my-4">
+				<div class="col">
+					<input type="text" id="patientInput" class="form-control" placeholder="Introduce un nuevo paciente" />
+				</div>
+				<div class="col-auto">
+					<button onclick="addPatient()" class="btn btn-primary">Añadir Paciente</button>
+				</div>
+			</div>
+
+			<div id="patientList"></div>
+		</div>
+
+		<footer class="bg-light text-center p-4">
+			<p>&copy; 2023 Lista de Pacientes</p>
+		</footer>
+	</body>
+	<script src="js/index.js"></script>
+</html>
