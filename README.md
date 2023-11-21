@@ -79,3 +79,7 @@ Carga Inicial: Carga cualquier paciente existente desde el Local Storage o inici
 `deletePatient()`: Función que permite eliminar un paciente de la lista.
 
 Renderizado Inicial: Llama a `renderPatients` para mostrar cualquier paciente existente al cargar la página.
+
+Un CRUD hecho con HTML, CSS y JavaScript puede ser de gran ayuda en la gestión y manipulación de datos en una aplicación web. CRUD es un acrónimo que significa Create (Crear), Read (Leer), Update (Actualizar) y Delete (Eliminar), y se refiere a las operaciones básicas que se pueden realizar en una base de datos o conjunto de datos. Aquí te explico cómo un CRUD puede ayudarte:
+
+
